@@ -120,7 +120,7 @@ function initGame() {
 	
 	rotateMesh.parent = rubix;
 	
-	var animationBox = new BABYLON.Animation("xanim", 'rotationQuaternion', 60, BABYLON.Animation.ANIMATIONTYPE_QUATERNION,
+	var animationBox = new BABYLON.Animation("xanim", 'rotationQuaternion', 200, BABYLON.Animation.ANIMATIONTYPE_QUATERNION,
 					BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE);
 	
     rotateMesh.animations.push(animationBox);
